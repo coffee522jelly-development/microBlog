@@ -48,7 +48,7 @@
       </div>
     </div>
   </header>
-    <div class="m-8">
+    <div class="sm:m-32 m-8">
       <NuxtPage />
     </div>
     <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
