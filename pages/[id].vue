@@ -11,7 +11,7 @@
         class="mt-6 md:mt-10"
       />
       <div class="mt-4 flex flex-col items-start gap-2 md:flex-row md:items-center md:gap-4">
-        <div class="rounded border-2 border-indigo-600 px-1.5 py-0.5 text-sm font-semibold text-indigo-600">
+        <div class="rounded border-2 border-teal-600 px-1.5 py-0.5 text-sm font-semibold text-teal-600">
           {{ data.category?.name }}
         </div>
         <div class="text-sm text-gray-700">
