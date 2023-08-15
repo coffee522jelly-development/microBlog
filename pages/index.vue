@@ -1,5 +1,5 @@
 <template>
-  <ul class="mt-16 grid sm:grid-cols-3 grid-cols-1 gap-8">
+  <ul class="grid sm:grid-cols-2 grid-cols-1 gap-8 col-span-3 md:col-span-8">
     <div v-for="blog in data?.contents" :key="blog.id" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <NuxtLink :to="`/${blog.id}`">
         <a href="#">
